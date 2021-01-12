@@ -1,0 +1,58 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+padding-top: 20px;
+border: solid;
+border-color: black;
+margin-top: 50px;
+margin-right: 900px;
+
+}
+
+.origami{
+  border: solid;
+  border-color: black;
+}
+
+.grid p{
+  position: absolute;
+  top:50%;
+  left:20%;
+  
+  transform: translate(-25%,-25%);
+  opacity: 0;
+
+}
+.grid:hover p{
+  opacity: 1;
+}
+
+.grid:hover img{
+  opacity:0.4;
+}
+
+.container{
+  flex-direction:row;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  
+
+}
+
+.grid{
+  position: relative;
+  background-color: aquamarine;
+}
+
+
+
+li{
+  background-color: black;
+  color: azure;
+  border: solid;
+  border-color: silver;
+}
